@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Register</h1>
+    <form action="http://google.com">
+        <label for="name">First Name:</label>
+        <input id="name" type="text" placeholder='John' required>
+
+        <label for="lastname">Last Name:</label>
+        <input id="lastname" type="text" placeholder='Smith' required><br>
+
+        <label for="male">Male:</label>
+        <input type="radio" id="male" name="gender" value="male">
+
+        <label for="female">Female:</label>
+        <input type="radio" id="female" name="gender" value="female">
+
+        <label for="other">Other:</label>
+        <input type="radio" id="other" name="gender" value="other"><br>
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" required placeholder='email'>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder='password' minlength="5" maxlength="10" required><br>
+
+        <label for="birthday">Birthday:</label>
+        <select name="birthday" id="birthday">
+            <option value="Month">Month</option>
+            <option value="August">August</option>
+            <option value="January">January</option>
+        </select>
+        <select name="Birthday">
+            <option value="Day">Day</option>
+            <option value="08">08</option>
+            <option value="13">13</option>
+        </select>
+        <select name="Birthday">
+            <option value="Year">Year</option>
+            <option value="2000">2000</option>
+            <option value="1999">1999</option>
+        </select><br>
+
+        <label for="termsAndConditiomns">I agree to terms and conditions</label>
+        <input type="checkbox" id="termsAndConditiomns" name="submit" value="termsAndConditiomns"><br>
+        <button type="submit">Submit</button>
+
+
+
+    </form>
+</body>
+
+</html>
